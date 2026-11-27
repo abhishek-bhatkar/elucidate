@@ -2,6 +2,21 @@
 
 An AI Agent Skill (`SKILL.md`) for structuring explanations, technical concepts, docs, emails, and presentations so humans understand them fast and remember them.
 
+## Installation
+
+### Via Skills CLI
+```bash
+npx skills add abhishek-bhatkar/elucidate
+```
+
+### Ask Your AI Agent
+Paste this prompt into your AI coding assistant:
+```text
+Install the elucidate skill from https://github.com/abhishek-bhatkar/elucidate
+```
+
+---
+
 Synthesizes three classic communication frameworks:
 1. ***The Pyramid Principle*** (Barbara Minto) — Top-down conclusion first, SCQA framing, and MECE grouping.
 2. ***The Art of Explanation*** (Lee LeFever) — Context before details ("Why" before "How"), familiar analogies, and A-to-G simplicity.
@@ -17,21 +32,6 @@ Synthesizes three classic communication frameworks:
 | **Bridge** | Beginners, onboarding, non-technical stakeholders | Context + familiar analogy, A-to-G Explanation Scale, zero jargon |
 | **Sticky** | Pitches, talks, culture/process changes | Beat the Curse of Knowledge, one Simple core, Concrete examples & stories |
 | **Stacked** *(Default)* | Complex topics for mixed audiences | Bridge opening -> Pyramid skeleton -> Sticky concrete examples |
-
----
-
-## Installation
-
-### Via Skills CLI
-```bash
-npx skills add abhishek-bhatkar/elucidate
-```
-
-### Ask Your AI Agent
-Paste this prompt into your AI coding assistant:
-```text
-Install the elucidate skill from https://github.com/abhishek-bhatkar/elucidate
-```
 
 ---
 
