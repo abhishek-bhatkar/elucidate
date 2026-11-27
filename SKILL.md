@@ -1,11 +1,12 @@
 ---
 name: elucidate
 description: >-
-  Losslessly tightens verbose tech specs, RFCs, PRs, and code reviews; structures audience-tailored
-  explanations; summarizes dense material; and organizes messy notes into atomic, actionable
-  knowledge. Use when rewriting technical prose concisely without losing decisions or constraints,
-  explaining concepts to specific audiences, summarizing docs/articles/books, or structuring raw
-  notes. Do not use for writing application code, debugging, or simple factual lookups.
+  Auto-use whenever the user asks to rewrite, tighten, shorten, clarify, explain, summarize,
+  digest, or organize text, specs, or notes. Losslessly compresses verbose tech specs, RFCs, PRs,
+  and code reviews without dropping decisions or constraints; explains concepts tailored to the
+  audience; summarizes books/articles/docs/transcripts; and organizes messy notes into atomic,
+  actionable (PARA) structure. Do not use for writing application code, debugging, or simple
+  factual lookups.
 ---
 
 # Elucidate
