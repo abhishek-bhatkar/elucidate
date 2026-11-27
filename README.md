@@ -31,26 +31,28 @@ Synthesizes six classic frameworks across two workflows:
 
 ---
 
-## Modes
+## How It Adapts Automatically
 
-| Mode | Best Audience / Situation | Core Technique |
-| :--- | :--- | :--- |
-| **Pyramid** | Decision-makers, engineering specs, emails, reviews | SCQA intro, governing answer first, non-overlapping MECE groups |
-| **Bridge** | Beginners, onboarding, non-technical stakeholders | Context + familiar analogy, A-to-G Explanation Scale, zero jargon |
-| **Sticky** | Pitches, talks, culture/process changes | Beat the Curse of Knowledge, one Simple core, Concrete examples & stories |
-| **Stacked** *(Default)* | Complex topics for mixed audiences | Bridge opening -> Pyramid skeleton -> Sticky concrete examples |
-| **Digest** | Books, long articles, papers, docs, transcripts | 1-sentence unity + structural skeleton + progressive summary layers |
-| **Organize** | Messy notes, brainstorms, research dumps, knowledge bases | Atomic own-words notes, cross-links, and PARA categorization |
+Just ask naturally—`elucidate` detects your goal and audience automatically:
+
+| What You're Doing | What `elucidate` Applies Automatically |
+| :--- | :--- |
+| **Writing to decision-makers** (specs, emails, proposals) | SCQA intro, governing answer first, non-overlapping MECE groups |
+| **Explaining to beginners or non-experts** | Context ("why") before details, familiar analogy, zero jargon |
+| **Pitching or teaching something memorable** | Beat the Curse of Knowledge, one sharp core, concrete examples & stories |
+| **Explaining complex topics to mixed audiences** | Context opening -> top-down Pyramid structure -> concrete examples |
+| **Summarizing a book, paper, or long doc** | 1-sentence unity, structural skeleton, and layered progressive summary |
+| **Organizing messy notes or research dumps** | Atomic own-words notes, context cross-links, and PARA categorization |
 
 ---
 
 ## Usage Examples
 
 - *"Use `elucidate` to explain how OAuth 2.0 works to a non-technical client."*
-- *"Use `elucidate` in Pyramid mode to rewrite this architecture proposal for leadership."*
-- *"Use `elucidate` in Digest mode to summarize this design doc / article."*
-- *"Use `elucidate` in Organize mode to turn these raw meeting notes into atomic notes sorted by PARA."*
-- *"Use `elucidate` in Sticky mode to make this engineering pitch memorable."*
+- *"Use `elucidate` to rewrite this architecture proposal for leadership."*
+- *"Use `elucidate` to summarize this design doc / article."*
+- *"Use `elucidate` to organize these raw meeting notes."*
+- *"Use `elucidate` to make this engineering pitch memorable."*
 
 ---
 
@@ -58,7 +60,7 @@ Synthesizes six classic frameworks across two workflows:
 
 ```text
 elucidate/
-├── SKILL.md                  # Main agent instructions & mode router
+├── SKILL.md                  # Main agent instructions & automatic routing
 ├── references/
 │   └── frameworks.md         # SCQA, MECE, SUCCESs, Adler, Smart Notes, PARA reference
 └── README.md

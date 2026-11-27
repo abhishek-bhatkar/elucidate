@@ -109,8 +109,8 @@ Organize notes, folders, and knowledge bases by **actionability** (fastest retri
 
 | Symptom | Root Problem | Fix |
 | :--- | :--- | :--- |
-| Reader asks *"So what?"* halfway through | Buried lead / bottom-up buildup | Move conclusion to sentence 1 (**Pyramid**) |
-| Reader glazes over at sentence 2 | Missing big picture / jargon overload | Add "why" context + analogy (**Bridge**) |
-| Reader forgets it the next day | Too abstract | Add one concrete example or story (**Sticky**) |
-| Summary feels like a list of random quotes | No structural skeleton | State 1-sentence unity + major parts (**Digest**) |
-| Notes are impossible to find or reuse | Filed by source instead of use | Rewrite as atomic notes + sort with PARA (**Organize**) |
+| Reader asks *"So what?"* halfway through | Buried lead / bottom-up buildup | Move conclusion to sentence 1 (*The Pyramid Principle*) |
+| Reader glazes over at sentence 2 | Missing big picture / jargon overload | Add "why" context + analogy (*The Art of Explanation*) |
+| Reader forgets it the next day | Too abstract | Add one concrete example or story (*Made to Stick*) |
+| Summary feels like a list of random quotes | No structural skeleton | State 1-sentence unity + major parts (*How to Read a Book*) |
+| Notes are impossible to find or reuse | Filed by source instead of use | Rewrite as atomic notes + sort with PARA (*Smart Notes + PARA*) |
