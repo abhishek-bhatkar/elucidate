@@ -27,11 +27,11 @@ Synthesizes three classic communication frameworks:
 npx skills add abhishek-bhatkar/elucidate
 ```
 
-### Manual
-Copy `SKILL.md` and `references/` into your agent's skills directory:
-- **Cross-agent (`~/.agents/skills/elucidate`):** works with compatible coding agents.
-- **Antigravity (`~/.gemini/config/skills/elucidate`):** global Antigravity discovery path.
-- **Project-specific (`.agents/skills/elucidate`):** scoped to a single repository.
+### Ask Your AI Agent
+Paste this prompt into your AI coding assistant:
+```text
+Install the elucidate skill from https://github.com/abhishek-bhatkar/elucidate
+```
 
 ---
 
