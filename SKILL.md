@@ -1,65 +1,92 @@
 ---
 name: elucidate
 description: >-
-  Structures explanations, technical concepts, docs, emails, and presentations for maximum clarity
-  using The Pyramid Principle, The Art of Explanation, and Made to Stick. Use when the user asks
-  to explain a concept to someone, simplify complex ideas, structure a doc/proposal/update,
-  overcome jargon, or rewrite an explanation to be clearer, more logical, or more memorable.
+  Summarizes dense material, organizes scattered notes/knowledge, and structures explanations for
+  maximum clarity using The Pyramid Principle, The Art of Explanation, Made to Stick, How to Read
+  a Book, How to Take Smart Notes, and Building a Second Brain. Use when the user asks to explain
+  a concept, summarize a book/article/doc, extract core arguments, structure a proposal/update,
+  organize messy notes into atomic/actionable knowledge, or rewrite drafts to be clearer.
 ---
 
 # Elucidate
 
-Turn complex, scattered ideas into clear, audience-tailored explanations by choosing or stacking three proven frameworks: **The Pyramid Principle** (structure), **The Art of Explanation** (accessibility), and **Made to Stick** (memorability).
+Turn complex information into clear understanding—whether you are **explaining** an idea to others, **summarizing** dense material, or **organizing** scattered notes and knowledge.
 
-For deeper templates, examples, and checklists, read [frameworks.md](./references/frameworks.md).
+For deeper templates, examples, and diagnostic tables, read [frameworks.md](./references/frameworks.md).
 
-## Step 1: Identify Audience, Context, and Goal
+## Step 1: Identify Goal, Audience, and Bottleneck
 
-Before writing or rewriting, determine (from the prompt, or infer reasonably):
-1. **Who is listening?** (Busy decision-maker, peer engineer, beginner/non-expert, skeptical room, or mixed audience)
-2. **What is the bottleneck?**
-   - Too disorganized / buried lead -> **Pyramid**
-   - Missing context / too much jargon -> **Bridge** (*Art of Explanation*)
-   - Forgettable / abstract / low urgency -> **Sticky** (*Made to Stick*)
-   - Complex topic for a mixed or unfamiliar group -> **Stacked** (default)
-3. **Explicit user override:** If the user names a mode (`pyramid`, `bridge`/`analogy`, `sticky`, or `stacked`), follow that directly.
+Determine what the user needs (or follow an explicit mode override: `pyramid`, `bridge`, `sticky`, `stacked`, `digest`, or `organize`):
 
-## Step 2: Apply the Selected Mode
+1. **Explaining / Writing to someone** -> choose from **Part A**:
+   - Disorganized or buried lead -> **Pyramid**
+   - Missing context or too much jargon -> **Bridge**
+   - Abstract or forgettable -> **Sticky**
+   - Complex topic for a mixed/unfamiliar audience -> **Stacked** (default for explanations)
+2. **Reading, Summarizing, or Organizing information** -> choose from **Part B**:
+   - Dense book, article, paper, doc, or transcript -> **Digest**
+   - Messy notes, brainstorms, links, or knowledge base -> **Organize**
 
-### Mode A: Pyramid (*The Pyramid Principle* — Barbara Minto)
+---
+
+## Part A: Explaining & Writing Modes
+
+### Mode 1: Pyramid (*The Pyramid Principle* — Barbara Minto)
 **Best for:** Decision-makers, engineering specs, RFCs, emails, postmortems, status updates, proposals.
-1. **Open with SCQA** (briefly when context is needed): *Situation -> Complication -> Question -> Answer*. If context is already shared, jump straight to the Answer.
-2. **Lead with the governing conclusion** in the first 1–2 sentences. Never build bottom-up to a surprise ending unless the audience is actively hostile to the premise.
+1. **Open with SCQA** when context is needed (*Situation -> Complication -> Question -> Answer*); otherwise jump straight to the Answer.
+2. **Lead with the governing conclusion** in the first 1–2 sentences (top-down, not bottom-up).
 3. **Group supporting points using MECE** (*Mutually Exclusive, Collectively Exhaustive*): 2–5 distinct, non-overlapping buckets that cover the answer completely.
-4. **Enforce vertical and horizontal logic:** Every parent claim summarizes its children; sibling points share one logical order (chronological, structural/component, or ranked by impact).
+4. **Enforce vertical and horizontal logic:** Every parent claim summarizes its children; sibling points share one logical order (chronological, structural, or ranked by impact).
 
-### Mode B: Bridge (*The Art of Explanation* — Lee LeFever)
+### Mode 2: Bridge (*The Art of Explanation* — Lee LeFever)
 **Best for:** Beginners, onboarding, cross-functional/non-technical stakeholders, tutorials, demos.
-1. **Answer "Why does this matter?" before "How does it work?"** Give the picture on the puzzle box before handing over puzzle pieces.
-2. **Anchor on the listener's side:** Connect the unfamiliar idea to something they already know via a simple analogy before introducing technical mechanics.
-3. **Stay on the left side of the Explanation Scale (A to G, not A to Z):** Trade edge-case precision for intuitive understanding. Strip jargon or translate it immediately into plain language.
+1. **Answer "Why does this matter?" before "How does it work?"** Show the picture on the puzzle box before handing out puzzle pieces.
+2. **Anchor on the listener's side:** Connect the new idea to something familiar via a simple analogy before introducing technical mechanics.
+3. **Stay on the left side of the Explanation Scale (A to G, not A to Z):** Trade edge-case precision for intuitive understanding and translate unavoidable jargon immediately.
 
-### Mode C: Sticky (*Made to Stick* — Heath & Heath)
+### Mode 3: Sticky (*Made to Stick* — Heath & Heath)
 **Best for:** Pitches, talks, culture/process change, persuasive writing, lessons people must remember and repeat.
-1. **Defeat the Curse of Knowledge:** Assume the listener cannot "hear the song in your head"—spell out what is obvious to you.
-2. **Find the single Simple core:** One sharp, prioritized takeaway (not ten diluted bullets).
-3. **Make it Concrete & Unexpected:** Replace abstract nouns (*scalability, synergy, optimization*) with sensory objects, real actions, or a surprising gap that creates curiosity.
-4. **Use Stories or Human-Scale Proof:** Show someone navigating the problem/solution rather than relying on dry statistics alone.
+1. **Defeat the Curse of Knowledge:** Spell out what feels obvious to you so the listener hears the "music," not isolated taps.
+2. **Find the single Simple core:** One sharp, prioritized takeaway.
+3. **Make it Concrete & Unexpected:** Replace abstract buzzwords with sensory objects, real actions, or a curiosity gap.
+4. **Use Stories or Human-Scale Proof:** Show someone navigating the idea in action rather than dry numbers alone.
 
-### Mode D: Stacked (Default for Complex or Mixed Explanations)
-Combine all three cleanly in layers:
-1. **Opening (Bridge):** 1–2 sentences of shared context + a familiar analogy if the topic is unfamiliar.
-2. **Skeleton (Pyramid):** State the single main takeaway upfront, supported by 2–4 clean MECE points.
+### Mode 4: Stacked (Default for Complex Explanations)
+1. **Opening (Bridge):** 1–2 sentences of shared context + a familiar analogy if needed.
+2. **Skeleton (Pyramid):** Main takeaway upfront, backed by 2–4 clean MECE points.
 3. **Proof / Examples (Sticky):** Ground each abstract point with one concrete, memorable example.
 
-## Step 3: Self-Check Before Responding
+---
 
-Verify the draft passes these checks:
-- **Lead clarity:** Can a busy reader state the main point after reading only the first two sentences?
-- **No Curse of Knowledge:** Is every unavoidable technical term explained or anchored in familiar terms?
-- **No overlap/bloat:** Are supporting bullets distinct (MECE) and free of filler?
-- **Right tone for the situation:** No forced stories in a quick operational spec; no cold jargon dump for a beginner.
+## Part B: Summarizing & Organizing Modes
 
-If the user asked to **rewrite or critique** their own draft, output:
-1. Brief diagnosis of the main bottleneck (missing context, buried lead, jargon, or abstraction).
-2. The rewritten version using the best-fit mode.
+### Mode 5: Digest (*How to Read a Book* + *Progressive Summarization*)
+**Best for:** Summarizing books, long articles, technical docs, videos, or meeting transcripts without losing the core argument.
+1. **One-Sentence Unity (*Adler*):** State what the entire piece is about and the core problem it tries to solve in 1–2 sentences.
+2. **Skeleton Outline (*Adler*):** Break the source into its 3–5 major structural parts and show how they fit together to answer the core problem.
+3. **Key Terms & Core Claims (*Adler*):** Define the author's pivotal terms plainly and list the main propositions/evidence supporting their conclusion.
+4. **Progressive Layers (*Tiago Forte*):** Format so a reader can skim at three depths:
+   - **Executive Summary:** 2–3 sentence bottom line at the very top.
+   - **Bolded Core:** Highlight the single most important takeaway inside each section.
+   - **Actionable Takeaways:** Concrete ideas the user can apply immediately.
+
+### Mode 6: Organize (*How to Take Smart Notes* + *PARA*)
+**Best for:** Turning scattered notes, research dumps, bookmarks, or project ideas into a clean, reusable knowledge structure.
+1. **Rewrite into Atomic Notes (*Zettelkasten / Smart Notes*):**
+   - Split multi-topic dumps into **one self-contained idea per note/block**, expressed in plain, own words (not copy-pasted fragments).
+   - Give each atomic note a clear claim-based title (e.g., *"Lead with conclusions because working memory is small"* instead of *"Writing notes"*).
+2. **Link by Context, Not Just Source (*Smart Notes*):** Group and cross-link notes by the question or topic where they will be useful, noting *why* two ideas connect (supports, contrasts, or extends).
+3. **Organize by Actionability with PARA (*Building a Second Brain*):** When structuring folders, tasks, or workspaces, sort items by where they will be used next:
+   - **Projects:** Active goals with a deadline/outcome.
+   - **Areas:** Ongoing responsibilities to maintain (no end date).
+   - **Resources:** Reference topics of ongoing interest.
+   - **Archives:** Inactive items from the other three.
+
+---
+
+## Step 2: Self-Check Before Responding
+
+- **Lead clarity:** Can a busy reader grasp the main point or summary from the first two sentences?
+- **No Curse of Knowledge:** Is every technical term defined or anchored in plain language?
+- **Clean structure (MECE / Atomic):** Are points non-overlapping and each note/bullet distinct?
+- **Right tone for the job:** No forced stories in a quick technical digest; no jargon dump for a beginner.
